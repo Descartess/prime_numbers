@@ -16,7 +16,7 @@ def primenumber(number_range):
         if prime[number]:
             for num2 in range(number*2, number_range+ 1, number):
                 prime[num2] = False
-            number += 1
+        number += 1
     for num in range(2, number_range):
         if prime[num]:
             output.append(num)

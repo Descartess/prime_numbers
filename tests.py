@@ -20,10 +20,10 @@ class PrimeNumberTest(unittest.TestCase):
         with self.assertRaises(TypeError):
             for datatype in args:
                 primenumber(datatype)
-    def testprimenumber_20(self):
-        """ test to get prime numbers up 20"""
-        prime_number_list = primenumber(15)
-        self.assertEqual(prime_number_list, [2, 3, 5, 7, 11, 13])
+    def testprimenumber_30(self):
+        """ test to get prime numbers up 30"""
+        prime_number_list = primenumber(30)
+        self.assertEqual(prime_number_list, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29])
     def testprimenumber_2(self):
         """ test to get prime numbers up 2"""
         prime_number_list = primenumber(2)
