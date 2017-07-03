@@ -28,5 +28,9 @@ class PrimeNumberTest(unittest.TestCase):
         """ test to get prime numbers up 2"""
         prime_number_list = primenumber(2)
         self.assertEqual(prime_number_list, [])
+    def testprimenumber_40(self):
+        """ test to get prime numbers up 40"""
+        prime_number_list = primenumber(40)
+        self.assertEqual(prime_number_list, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37])
 
 unittest.main()
