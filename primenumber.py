@@ -4,5 +4,5 @@ def checktype(datatype):
     pass
 
 def primenumber(number_range):
-    """ Returns  a  list of prime numbers """
+    """ Returns  a  list of prime numbers git """
     pass

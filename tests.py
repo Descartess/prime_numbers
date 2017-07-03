@@ -13,3 +13,4 @@ class PrimeNumberTest(unittest.TestCase):
         prime_number_list = primenumber(10)
         self.assertEqual(prime_number_list, [2, 3, 5, 7])
 
+unitest.main()
