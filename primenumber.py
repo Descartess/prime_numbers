@@ -5,7 +5,6 @@ def checktype(datatype):
         pass
     else:
         raise TypeError('argument should be interger greater than 1')
-
 def primenumber(number_range):
     """ Returns  a  list of prime numbers using sieve of erastothenes """
     checktype(number_range)
