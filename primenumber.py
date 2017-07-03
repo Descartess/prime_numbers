@@ -1,10 +1,10 @@
 """ finctions to compute """
 def checktype(datatype):
     """ checks data type of arguments """
-    if isinstance(datatype, int) and datatype > 0:
+    if isinstance(datatype, int) and datatype > 1:
         pass
     else:
-        raise TypeError('argument should be interger greater than 0')
+        raise TypeError('argument should be interger greater than 1')
 
 def primenumber(number_range):
     """ Returns  a  list of prime numbers using sieve of erastothenes """
