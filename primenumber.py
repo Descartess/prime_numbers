@@ -1,4 +1,4 @@
-""" finctions to compute """
+""" functions to compute """
 def checktype(datatype):
     """ checks data type of arguments """
     if isinstance(datatype, int) and datatype > 1:
