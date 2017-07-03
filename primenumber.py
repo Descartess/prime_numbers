@@ -11,7 +11,7 @@ def primenumber(number_range):
     checktype(number_range)
     number = 2
     output = []
-    prime = [ True for num in range(number_range+1)]
+    prime = [True for num in range(number_range+1)]
     while number*number <= number_range:
         if prime[number]:
             for num2 in range(number*2, number_range+ 1, number):
