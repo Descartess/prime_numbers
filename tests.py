@@ -7,10 +7,12 @@ class PrimeNumberTest(unittest.TestCase):
     def testdatatype(self):
         """checks that appropriate data type is supplied"""
         args = ["", " ", -1, -1000, "food"]
-        self.assertRaises(TypeError, checktype, *args)
+        with self.assertRaises(TypeError):
+            for datatype in args:
+                checktype(datatype)
     def testprimenumbers(self):
         """ checks prime numbers under 10"""
         prime_number_list = primenumber(10)
         self.assertEqual(prime_number_list, [2, 3, 5, 7])
 
-unitest.main()
+unittest.main()
